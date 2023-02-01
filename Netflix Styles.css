@@ -177,7 +177,7 @@ nav button{
     padding: 5px;
 }
 
-.answer li span{
+.answer li label{
     display: flex;
     align-items: center;
     width: 100%;
@@ -188,7 +188,7 @@ nav button{
     position: relative;
 }
 
-span::after{
+label::after{
     content: '+';
     font-size: 40px;
     position: absolute;
